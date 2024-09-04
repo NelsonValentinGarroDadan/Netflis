@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://NelsonValentinGarroDadan.github.io/NetflisAPI",
+  "homepage": "https://NelsonValentinGarroDadan.github.io/Netflis",
   "scripts": {
     "start": "webpack && live-server",
     "build": "webpack",
