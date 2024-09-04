@@ -1,0 +1,101 @@
+body {
+    background-color: #141414;
+    width: 100%;
+}
+
+header {
+    height: 3em;
+    padding: 0 10px;
+    background-color: rgb(20, 20, 20);
+    position: sticky;
+    z-index: 500;
+}
+
+.logo {
+    height: 7em;
+    margin: 10px 10px 0 0;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    height: 60%;
+    width: 100%;
+}
+.nav-link.active{
+    color: #ffffff;
+}
+.nav-link {
+    margin: 0 20px;
+    color: #e5e5e5b4;
+    font-family: Ubuntu, sans-serif;
+    font-size: .9rem;
+    transition: all ease-in-out .2s;
+}
+.nav-link:hover {
+    color: #b3b3b3b0;
+}
+
+.navacount {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-search, .btn-notifications, .btn-account {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin: 5px 5px 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-search svg, .btn-notifications svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #e5e5e5;
+    background-color: transparent;
+}
+
+.btn-account a {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.btn-account a img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-account span {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    border-style: solid;
+    margin-left: 15px;
+}
+
+.btn-account span::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: .5rem .3rem 0 .3rem;
+    top: 50%;
+    left: 0;
+    border-color: #e5e5e5 transparent transparent transparent;
+    transition: all ease-in-out .2s;
+    transform: rotate(0deg);
+}
+
+.btn-account:hover span::before {
+    transform: rotate(180deg);
+}

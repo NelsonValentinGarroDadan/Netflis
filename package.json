@@ -1,0 +1,23 @@
+{
+  "name": "netflis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && live-server",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.5",
+    "sweetalert2": "^11.13.1"
+  }
+}

@@ -1,0 +1,236 @@
+
+.geners {
+    height: 12em;
+    margin: 40px 0px;
+}
+#Load,#Load .load-container-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-togle-geners, .load-container-togle-geners {
+    width: calc(100% - 4rem);
+    margin-bottom: 10px;
+}
+
+.gener-title, .load-gener-title ,.allMovies-title{
+    color: #e5e5e5;
+    font-size: large;
+    padding-left: 15px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.container-gener-counts, .load-container-gener-counts {
+    padding-right: 15px;
+}
+
+.gener-count {
+    margin: 1px;
+    width: 12px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #4d4d4d;
+}
+
+.gener-count.active {
+    background-color: #aaa;
+}
+
+.container-carousel, .load-container-carousel {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.container-carousel .prev-btn,
+.container-carousel .next-btn {
+    color: transparent;
+    height: 80%;
+    width: 4rem;
+    top: 10%;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+    z-index: 500;
+    border: none;
+    opacity: .2;
+}
+
+.container-carousel .prev-btn {
+    left: 0;
+    background-image: linear-gradient(to right, #141414, #323232);
+}
+
+.container-carousel .next-btn {
+    right: 0;
+    background-image: linear-gradient(to left, #141414, #323232);
+}
+
+.container-carousel:hover .prev-btn,
+.container-carousel:hover .next-btn {
+    color: #e5e5e5;
+}
+
+.container-carousel .prev-btn:hover,
+.container-carousel .next-btn:hover {
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, .3);
+    opacity: .6;
+}
+
+.carousel, .load-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    position: absolute;
+    transition: all .5s ease-in-out;
+    left: 0;
+    transform: translateX(0);
+    z-index: 1;
+}
+
+.slider, .load-slider {
+    width: calc(100vw - .1rem - 8rem);
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.load-card-carousel {
+    background-color: #323232;
+    animation: encender 1s infinite;
+}
+
+.load-card-carousel:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.load-card-carousel:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.load-card-carousel:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.load-card-carousel:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.load-card-carousel:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.card-carousel, .load-card-carousel {
+    height: 80%;
+    width: calc(((100vw - 8rem) / 5) - .5rem);
+    margin-right: .5rem;
+    transition: transform .3s ease-in;
+    cursor: pointer;
+    box-shadow: none;
+    position: relative;
+}
+
+.card-carousel .poster {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.fall-back {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+    background-color: #141414;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.img-fallBack {
+    height: 10em;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.fall-back .des-FallBack {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title-fallBack, .year-fallBack, .director-fallBack, .duration-fallBack, .rate-fallBack, .listGeners-fallBack, .btn-play {
+    color: #e5e5e5;
+    margin: 10px 0;
+    padding: 0 5px;
+    font-family: Ubuntu, sans-serif;
+    width: 100%;
+}
+
+.year-fallBack, .director-fallBack, .duration-fallBack, .rate-fallBack, .listGeners-fallBack {
+    font-size: .8rem;
+}
+
+.listGeners-fallBack {
+    text-align: center;
+    padding: 0;
+}
+
+.btn-play {
+    height: 2em;
+    width: 2.3em;
+}
+
+.btn-play:hover .img-play {
+    filter: opacity(10%);
+}
+
+.img-play {
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+@keyframes encender {
+    0% {
+        background-color: #323232;
+    }
+
+    50% {
+        background-color: #4d4d4d;
+    }
+
+    100% {
+        background-color: #323232;
+    }
+}
+
+.allMovies{
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.allMovies-title{
+    margin-bottom: 10px;
+    font-size: xx-large;
+
+}.allMovies-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+}

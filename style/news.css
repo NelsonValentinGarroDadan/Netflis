@@ -1,0 +1,20 @@
+section{
+    margin-top: 40px;
+    background-color: #323232;
+    border-radius: 5px;
+    
+}
+h1,p{
+    color: #e5e5e5;
+    font-family: Ubuntu, sans-serif;
+    margin-bottom: 10px;
+    padding: 15px;
+  
+}
+h1{
+    font-size: x-large;
+    width: 100%;
+}
+p{
+    font-size: medium;
+}

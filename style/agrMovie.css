@@ -1,0 +1,101 @@
+section{
+    margin-top: 40px;
+    background-color: #323232;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+h1,.form-label,.form-check-label{
+    color: #e5e5e5;
+    font-family: Ubuntu, sans-serif;
+}
+h1{
+    padding: 10px 15px;
+    font-size: x-large;
+}
+.form-label{
+    font-size: small;
+}
+.form-text{
+    height: 6px;
+    width: 100%;
+    color: red;
+    font-family: Ubuntu, sans-serif;
+    font-size: x-small;
+}
+.cont-img{
+    height: calc((68.333px + 9px) * 5);
+}
+#srcImg{
+    border-radius: 10px;
+}
+.form-check{
+ height: 37.3px;
+}
+.form-check .form-check-input {
+    float: left;
+    margin: 0 .5em; 
+}
+.form-check-input:checked {
+    background-color: #e50914;
+    border-color: #e50914;
+} 
+.form-check-input:focus {
+    box-shadow: none;
+}
+.form-control{
+    font-family: Ubuntu, sans-serif;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.form-check-label{
+    font-size: smaller;
+}
+.fall-back {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+    background-color: #141414;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: scale(.8);
+}
+
+.img-fallBack {
+    height: 8em;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.fall-back .des-FallBack {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title-fallBack, .year-fallBack, .director-fallBack, .duration-fallBack, .rate-fallBack, .listGeners-fallBack, .btn-play {
+    color: #e5e5e5;
+    margin: 10px 0;
+    padding: 0 5px;
+    font-family: Ubuntu, sans-serif;
+    width: 100%;
+}
+.year-fallBack, .director-fallBack, .duration-fallBack, .rate-fallBack{
+    text-align: left;
+    padding-left: 10px;
+}
+.year-fallBack, .director-fallBack, .duration-fallBack, .rate-fallBack, .listGeners-fallBack {
+    font-size: .8rem;
+}
+
+.listGeners-fallBack {
+    text-align: center;
+    padding: 0;
+}

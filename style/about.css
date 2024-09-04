@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+section {
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #323232;
+}
+
+h1, .introduction ,.accordion-body,.accordion-button{
+    color: #e5e5e5;
+    font-family: Ubuntu, sans-serif;
+}
+
+p{
+    padding: 15px;
+    width: 100%;
+    letter-spacing: .7px;
+    color: #e5e5e5;
+    font-size: medium;
+}
+
+h1 {
+    font-size: x-large;
+    padding: 15px;
+    width: 100%;
+}
+
+h2 {
+    font-size: large;
+}
+
+
+.accordion {
+    width: 100%;
+    overflow-y: scroll;
+    height: 20em;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #e5e5e5;
+    background-color: #e50914;
+    font-family: Ubuntu, sans-serif;
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 2px;
+}
+
+.accordion-button, .accordion-body {
+    background-color: #323232b7;
+}
+.accordion-body {
+    letter-spacing: .7px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
