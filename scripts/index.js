@@ -23,7 +23,7 @@ if(window.location.pathname.includes("agrMovie.html")){
   const fetchData = async ()=>{
     let tempData = [];
     try{  
-      tempData =  await axios.get("http://localhost:3000/movies");
+      tempData =  await axios.get("https://netflisapi.onrender.com/movies");
       document.getElementById('Load').remove();
       generateHtml(tempData.data);
   
