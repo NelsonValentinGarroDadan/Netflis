@@ -41,5 +41,5 @@ Un clon de **Netflix** con un toque de humor. Este proyecto consume datos desde 
 - 🎨 Optimizar el diseño para hacerlo más interactivo.
 ## 🖇️ **Enlaces importantes**
 - 🌐 [Deploy](https://nelsonvalentingarrodadan.github.io/Netflis/index.html)
-- 🔗 [Backend API Repositorio](href="https://github.com/NelsonValentinGarroDadan/NetflisAPI)
+- 🔗 [Backend API Repositorio](https://github.com/NelsonValentinGarroDadan/NetflisAPI)
 <p align="center"> ¡Espero que disfrutes explorando **Netflis** tanto como yo disfruté construyéndolo! 🐧 </p>
