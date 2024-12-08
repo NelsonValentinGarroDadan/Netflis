@@ -2,7 +2,7 @@
 
 Un clon de **Netflix** con un toque de humor. Este proyecto consume datos desde una API desarrollada por mí y presenta información sobre películas con un diseño inspirado en la interfaz de Netflix. ¡Es perfecto para reírte mientras exploras películas ficticias! 😄  
 
-🔗<a href="https://nelsonvalentingarrodadan.github.io/Netflis/index.html" target="_blank">Ver el proyecto en vivo aquí</a>
+### 🔗 **[Ver el proyecto en vivo aquí](https://nelsonvalentingarrodadan.github.io/Netflis/index.html)**
 
 ---
 
@@ -40,6 +40,6 @@ Un clon de **Netflix** con un toque de humor. Este proyecto consume datos desde 
 - 🔍 Añadir funcionalidades como búsqueda y filtros.
 - 🎨 Optimizar el diseño para hacerlo más interactivo.
 ## 🖇️ **Enlaces importantes**
-- 🌐 <a href="https://nelsonvalentingarrodadan.github.io/Netflis/index.html" target="_blank">Deploy</a>
-- 🔗 <a href="https://github.com/NelsonValentinGarroDadan/NetflisAPI" target="_blank">Backend API Repositorio</a>
+- 🌐 [Deploy](https://nelsonvalentingarrodadan.github.io/Netflis/index.html)
+- 🔗 [Backend API Repositorio](href="https://github.com/NelsonValentinGarroDadan/NetflisAPI)
 <p align="center"> ¡Espero que disfrutes explorando **Netflis** tanto como yo disfruté construyéndolo! 🐧 </p>
